@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.navmenu{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navmenu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navmenu a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.mainContainer{
+  
+  margin-bottom: 80px;
+}
+
+.heroSection{
+  background-image: url(https://www.history.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY3Mjg0NjMyODkzNTMxMzM1/buddhism_topic.jpg);
+  height: 1000px;
+  color: #fff;
+  padding: 50px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.contentContainer{
+  margin-bottom: 80px;
+
+}
+
+h3{
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+}
+
+
+.twoUpContainer{
+  background-color: #fff027;
+  width: 100%;
+}
+
+.leftColumeContent, .rightColumeContent{
+  background-color: #ddd;
+  width:50%;
+  display:inline-block;
+}
+.footer{
+
+}
