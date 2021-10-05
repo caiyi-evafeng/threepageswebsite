@@ -10,7 +10,7 @@ body{
   display:flex;
   flex-flow:column wrap;
   justify-content: center;
-  align-items: center;
+  align-content: center;
 }
 
 .navmenu{
@@ -20,7 +20,7 @@ body{
     bottom: 0;
     width: 100%;
     margin-left: 0px;
-    padding-left: 0px;
+    padding-left: 10px;
 
 }
 
