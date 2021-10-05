@@ -1,7 +1,16 @@
+body{
+  background-image: url(bodh-gaya.jpeg);
+  background-size:cover;
+}
+
 .mainContainer{
   font-size: 40px;
+  color: #ffff;
+  font-weight: bold;
   display:flex;
   flex-flow:column wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .navmenu{
@@ -10,6 +19,9 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+
 }
 
 .navmenu a {
